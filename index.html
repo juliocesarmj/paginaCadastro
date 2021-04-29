@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>App - Cadastro de funcionários - Faculdade iv2</title>
+</head>
+
+<body>
+  <div class="container containerjs">
+    <div class="titulo">
+      <h2>Cadastro de <small>funcionários</small></h2>
+    </div>
+    <div class="box">
+      <form action="" id="form">
+        <div class="group">
+          <input type="text" id="name" required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Nome completo</label>
+        </div>
+
+        <div class="group">
+          <input type="text" id="mail" required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Email</label>
+        </div>
+
+        <div class="group">
+          <input type="text" id="tel" required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Telefone</label>
+        </div>
+
+        <div class="group">
+          <input type="text" id="cep" required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Cep</label>
+        </div>
+
+        <div class="group">
+          <input type="text" id="rua" required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Rua</label>
+        </div>
+
+        <div class="group">
+          <input type="text" id="numCasa" required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Número</label>
+        </div>
+
+        <div class="group">
+          <input type="text" id="complemento" disabled>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Complemento</label>
+          <input type="button" value="Habilitar opção" id="addComp">
+        </div>
+
+        <div class="group">
+          <input type="text" id="bairro" required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Bairro</label>
+        </div>
+
+        <div class="group">
+          <input type="text" id="cidade" required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Cidade</label>
+        </div>
+
+        <div class="group">
+          <input type="text" id="estado" required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Estado</label>
+        </div>
+        <button>Cadastrar</button>
+      </form>
+    </div>
+
+  </div>
+  <div class="lista">
+    <table class="table">
+      <div class="cadastrados">
+        <p></p>
+      </div>
+    </table>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
